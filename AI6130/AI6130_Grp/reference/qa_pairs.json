@@ -1,0 +1,288 @@
+{
+  "Introduction_to_Dynamics": [
+    {
+      "question": "What is the main goal of dynamics?",
+      "answer": "To predict the coordinates of particles as functions of time."
+    },
+    {
+      "question": "What is the definition of velocity in terms of position?",
+      "answer": "Velocity is the derivative of the position vector with respect to time, v(t) = dr/dt."
+    },
+    {
+      "question": "What are Newton\u2019s three laws of motion?",
+      "answer": "1) Objects remain in uniform motion unless acted on by a force. 2) Force equals the rate of change of momentum. 3) Every action has an equal and opposite reaction."
+    },
+    {
+      "question": "Why is the concept of inertial frames important?",
+      "answer": "Newton's laws are only valid in inertial frames, which move at constant velocity relative to one another."
+    },
+    {
+      "question": "What transformation preserves Newton\u2019s laws?",
+      "answer": "Galilean transformations."
+    },
+    {
+      "question": "What is the relationship between force and acceleration for constant mass?",
+      "answer": "F = ma, where a is the acceleration."
+    },
+    {
+      "question": "What is a force law?",
+      "answer": "A rule that specifies how force depends on position and possibly velocity."
+    },
+    {
+      "question": "Give an example of a constant force.",
+      "answer": "F = -mg, due to gravity."
+    },
+    {
+      "question": "What is Hooke\u2019s law?",
+      "answer": "F = -kx, where k is the spring constant and x is displacement."
+    },
+    {
+      "question": "What does Newton\u2019s Third Law imply about interacting particles?",
+      "answer": "They exert equal and opposite forces on each other."
+    },
+    {
+      "question": "What is gravitational force according to Newton?",
+      "answer": "F = -GMm r\u0302 / r^2, where G is the gravitational constant."
+    },
+    {
+      "question": "How is terminal velocity defined with linear damping?",
+      "answer": "v_terminal = mg / gamma."
+    },
+    {
+      "question": "What happens to velocity under uniform force with no friction?",
+      "answer": "Velocity increases linearly over time."
+    },
+    {
+      "question": "What is the form of friction at high velocities?",
+      "answer": "Quadratic in velocity, F = -cv^2."
+    },
+    {
+      "question": "What is the physical origin of quadratic drag?",
+      "answer": "Momentum transfer from collisions with fluid molecules."
+    },
+    {
+      "question": "What is the Lorentz force?",
+      "answer": "F = q(E + v x B / c), acting on a charged particle in electromagnetic fields."
+    },
+    {
+      "question": "What is the cyclotron frequency?",
+      "answer": "omega_c = qB / (mc), the frequency of circular motion in a magnetic field."
+    },
+    {
+      "question": "What is the drift speed in crossed E and B fields?",
+      "answer": "u_D = cE / B."
+    },
+    {
+      "question": "What motion results from crossed E and B fields?",
+      "answer": "A circular or spiral motion combined with a drift."
+    },
+    {
+      "question": "What is the importance of initial conditions in motion equations?",
+      "answer": "They determine the constants of integration and thus the specific solution."
+    },
+    {
+      "question": "What is the relationship between inertial and gravitational mass?",
+      "answer": "Experiments show they are equal, as objects fall at the same rate in vacuum."
+    },
+    {
+      "question": "What does conservation of momentum imply?",
+      "answer": "The total momentum of an isolated system remains constant."
+    },
+    {
+      "question": "What is an inertial frame?",
+      "answer": "A reference frame moving at constant velocity where Newton's laws hold."
+    },
+    {
+      "question": "What is meant by a degree of freedom in dynamics?",
+      "answer": "An independent coordinate needed to specify the configuration of a system."
+    },
+    {
+      "question": "How many constants of integration are required per degree of freedom?",
+      "answer": "Two, corresponding to initial position and velocity."
+    }
+  ],
+  "Force": [
+    {
+      "question": "What is a force in physics?",
+      "answer": "A force is a push or a pull that may or may not involve contact."
+    },
+    {
+      "question": "How can a table exert a force if it doesn't visibly compress?",
+      "answer": "It does compress slightly; it's just much stiffer than a pillow so compression is harder to see."
+    },
+    {
+      "question": "How can force be measured?",
+      "answer": "Force can be measured using force meters like springs or proving rings."
+    },
+    {
+      "question": "What is a proving ring?",
+      "answer": "A proving ring is a highly accurate device for measuring both pushes and pulls."
+    },
+    {
+      "question": "Why is the pound confusing in physics?",
+      "answer": "Because it can refer to both force and mass; in physics, 'pound-force' or 'lbf' is preferred."
+    },
+    {
+      "question": "Does force cause velocity?",
+      "answer": "No, force causes acceleration, not velocity."
+    },
+    {
+      "question": "What is the correct way to describe what force does?",
+      "answer": "Force causes a change in motion or acceleration."
+    },
+    {
+      "question": "What experiments show force causes acceleration?",
+      "answer": "Pulling a brick with rubber bands of varying amounts and observing changes in acceleration."
+    },
+    {
+      "question": "What is the proportional relationship between force and acceleration?",
+      "answer": "Acceleration is directly proportional to force and inversely proportional to mass."
+    },
+    {
+      "question": "What is the formula that relates force, mass, and acceleration?",
+      "answer": "a = F/m"
+    },
+    {
+      "question": "Does the mass of an object affect its acceleration?",
+      "answer": "Yes, heavier objects accelerate less under the same force."
+    },
+    {
+      "question": "What unit is force measured in according to the second definition?",
+      "answer": "Newtons (N), where 1 N = 1 kg\u00b7m/s\u00b2."
+    },
+    {
+      "question": "What is the conversion between pounds and newtons?",
+      "answer": "1 pound is equal to 4.448 newtons."
+    },
+    {
+      "question": "What are the two operational definitions of force?",
+      "answer": "One based on stretching springs, and the other on causing acceleration."
+    },
+    {
+      "question": "Does chemical composition affect acceleration due to force?",
+      "answer": "No, all materials respond similarly to the same force if their mass is the same."
+    },
+    {
+      "question": "What is the revised formula for acceleration at high velocities?",
+      "answer": "a = [(1 - v^2/c^2)^1.5] * F / m"
+    },
+    {
+      "question": "Why should old force standards still be preserved?",
+      "answer": "To have backups in case our current laws are found to be incomplete."
+    },
+    {
+      "question": "What was Galileo\u2019s contribution to understanding force?",
+      "answer": "He demonstrated that motion continues without force unless acted upon by friction."
+    },
+    {
+      "question": "What does 'operational definition' mean?",
+      "answer": "Defining a concept through a method of measurement or observation."
+    },
+    {
+      "question": "Is the law a = F/m always accurate?",
+      "answer": "It\u2019s accurate at low speeds but needs corrections at relativistic speeds."
+    }
+  ],
+  "Newtons_Law": [
+    {
+      "question": "What is the main focus of Chapter 7 in the document?",
+      "answer": "The main focus is on Newton's Laws of Motion, their definitions, experimental basis, and applications."
+    },
+    {
+      "question": "What are Newton’s Three Laws of Motion?",
+      "answer": "1) A body remains at rest or in uniform motion unless acted upon by a force. 2) The force on an object is equal to the rate of change of its momentum. 3) For every action, there is an equal and opposite reaction."
+    },
+    {
+      "question": "How did Newton define 'force'?",
+      "answer": "Newton defined force as an action that changes a body's state of rest or uniform motion, proportional to the acceleration it produces."
+    },
+    {
+      "question": "What is the equation defining force according to Newton?",
+      "answer": "The force is defined by the vector equation: \\( \\vec{F} = m \\vec{a} \\)."
+    },
+    {
+      "question": "How is force shown to be a vector quantity?",
+      "answer": "Force is shown to be a vector by applying multiple forces and observing that resulting accelerations and forces add vectorially."
+    },
+    {
+      "question": "What is the 'quantity of matter' as per Newton?",
+      "answer": "It is the product of density and volume, and it defines inertial mass."
+    },
+    {
+      "question": "What is Newton’s First Law also called?",
+      "answer": "It is also called the Principle of Inertia."
+    },
+    {
+      "question": "What did Newton mean by an 'impressed force'?",
+      "answer": "An impressed force is an action exerted on a body to change its motion."
+    },
+    {
+      "question": "What is inertial mass?",
+      "answer": "Inertial mass is a measure of an object's resistance to acceleration when a force is applied."
+    },
+    {
+      "question": "How is inertial mass calibrated experimentally?",
+      "answer": "By comparing accelerations of a standard and unknown mass under the same applied force."
+    },
+    {
+      "question": "How does Newton define momentum?",
+      "answer": "Momentum is defined as the product of mass and velocity: \\( \\vec{p} = m\\vec{v} \\)."
+    },
+    {
+      "question": "What is the modern form of Newton's Second Law?",
+      "answer": "It is \\( \\vec{F} = m \\vec{a} \\), assuming mass is constant."
+    },
+    {
+      "question": "What is impulse in Newtonian mechanics?",
+      "answer": "Impulse is the product of force and time interval, equal to the change in momentum: \\( \\vec{I} = \\vec{F} \\Delta t = \\Delta \\vec{p} \\)."
+    },
+    {
+      "question": "What does Newton’s Third Law state?",
+      "answer": "To every action there is an equal and opposite reaction."
+    },
+    {
+      "question": "How are action-reaction forces represented mathematically?",
+      "answer": "They are shown as: \\( \\vec{F}_{1,2} = -\\vec{F}_{2,1} \\)."
+    },
+    {
+      "question": "What is a vector decomposition example discussed in the chapter?",
+      "answer": "An example where two ropes exert forces on a post and a third force balances the net horizontal force."
+    },
+    {
+      "question": "Why does Newtonian mechanics have limitations?",
+      "answer": "It fails at high speeds (\\( v > 0.1c \\)) and quantum scales, requiring relativity or quantum mechanics."
+    },
+    {
+      "question": "What is the relationship between force and acceleration direction?",
+      "answer": "Force direction is defined as the direction of the resulting acceleration."
+    },
+    {
+      "question": "How does the vector addition of forces validate their vector nature?",
+      "answer": "By showing that combined forces result in acceleration consistent with vector summation."
+    },
+    {
+      "question": "How can we experimentally determine if forces add as vectors?",
+      "answer": "By applying forces individually and together, then comparing the resulting accelerations."
+    },
+    {
+      "question": "Why is Newton’s First Law considered an experimental law?",
+      "answer": "Because it is based on empirical observation of motion in absence of net force."
+    },
+    {
+      "question": "What does Newton mean by 'motion of the whole'?",
+      "answer": "It is the sum of the motion (momentum) of all parts of a body."
+    },
+    {
+      "question": "What physical experience illustrates the First Law?",
+      "answer": "Riding a train and perceiving movement of the station illustrates relative motion due to inertia."
+    },
+    {
+      "question": "Why can’t we tell if a train is moving at constant speed?",
+      "answer": "Because constant velocity motion is indistinguishable from rest in the absence of net force."
+    },
+    {
+      "question": "What mathematical tool allows prediction of future motion?",
+      "answer": "Integration of acceleration gives velocity and position over time."
+    }
+  ]
+}
